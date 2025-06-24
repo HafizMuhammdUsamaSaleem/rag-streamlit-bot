@@ -2,7 +2,7 @@
 A Retrieval-Augmented Generation (RAG) chatbot built with Streamlit, LangChain, and OpenAI. Upload documents, index them into a vector store, and chat contextually with your data.
 
 ## Project Structure
-'''
+```
 
 ├── Documents
 │   ├── advanced-security-guide.pdf
@@ -28,4 +28,4 @@ A Retrieval-Augmented Generation (RAG) chatbot built with Streamlit, LangChain, 
 │   └── retrieval.py
 └── web_template.py
 
-'''
+```
