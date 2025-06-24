@@ -1,7 +1,45 @@
 ## rag-streamlit-bot
 A Retrieval-Augmented Generation (RAG) chatbot built with Streamlit, LangChain, and OpenAI. Upload documents, index them into a vector store, and chat contextually with your data.
 
-## Project Structure
+### Features
+- Document upload & indexing – process local files into searchable chunks
+
+- Semantic retrieval – embed and query content via LangChain + OpenAI embeddings
+
+- Chat UI – interactive conversation using Streamlit’s chat components
+
+- Session memory – maintains chat history within each session
+
+### Quickstart
+1. Clone the repo
+```
+git clone https://github.com/HafizMuhammdUsamaSaleem/rag-streamlit-bot.git
+cd rag-streamlit-bot
+
+```
+2. Create and activate a virtual environment
+```
+python3 -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+```
+3. Install dependencies
+```
+pip install -r requirements.txt
+
+```
+4. Configure Secrets
+Add your OpenAI API key to ```.streamlit/secrets.toml```:
+```
+OPENAI_API_KEY = "sk-your-openai-key-here"
+
+```
+5. Run the app
+```
+python -m streamlit run main.py
+
+```
+### Project Structure
 ```
 
 ├── Documents
