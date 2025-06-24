@@ -67,3 +67,22 @@ python -m streamlit run main.py
 └── web_template.py
 
 ```
+
+### How It Works
+
+1. Upload documents via Streamlit.
+
+2. LangChain splits and embeds content, storing it in a vector store.
+
+3. User messages trigger semantic document search.
+
+4. Context + prompt sent to OpenAI for generating chat responses.
+
+
+### Enhancements
+
+- Swap vector store: e.g., FAISS, Chroma, Pinecone.
+
+- Add support for PDFs, DOCX, Web URLs.
+
+- Improve performance: caching, chunking strategies, embedding batch requests.
