@@ -1,2 +1,5 @@
-db
+db/
 .streamlit
+chat_history.json
+templates
+.DS_Store
